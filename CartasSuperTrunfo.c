@@ -43,11 +43,11 @@ int main()
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf("%d - %s\n", codigo, nome);
     printf("População: %d habitantes\n", populacao);
-    printf("Área: %fm^2\n", area);
-    printf("PIB: R$%f\n", pib);
-    printf("Pontos turísticos: %d ponto(s)", turismo);
-    printf("Densidade: %.2f", densidade);
-    printf("Pib per Capita: %.2f", perCapita);
-    
+    printf("Área: %.2fm^2\n", area);
+    printf("PIB: R$%.2f\n", pib);
+    printf("Pontos turísticos: %d ponto(s)\n", turismo);
+    printf("Densidade: %.2f\n", densidade);
+    printf("Pib per Capita: %.2f\n", perCapita);
+
     return 0;
 }
